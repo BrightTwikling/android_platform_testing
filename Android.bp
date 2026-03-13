@@ -127,7 +127,7 @@ test_package {
         "xaVideoDecoderCapabilities",
     ],
     host_tests: [
-        "perfetto_trace_processor_shell",
+        "trace_processor_shell_prebuilt",
         "root-canal",
     ],
     tests_if_exist_common: [
@@ -702,7 +702,7 @@ test_package {
         "ImsStackNativeTests",
     ],
     host_tests: [
-        "perfetto_trace_processor_shell",
+        "trace_processor_shell_prebuilt",
     ],
     tests_if_exist_host: [
         "MultiuserHostsideIntegrationTests",
@@ -854,7 +854,7 @@ test_package {
     tests_if_exist_device_both: [
     ],
     host_tests: [
-        "perfetto_trace_processor_shell",
+        "trace_processor_shell_prebuilt",
     ],
 
     dist: {
