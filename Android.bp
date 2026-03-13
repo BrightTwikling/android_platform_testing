@@ -128,7 +128,6 @@ test_package {
     ],
     host_tests: [
         "trace_processor_shell_prebuilt",
-        "root-canal",
     ],
     tests_if_exist_common: [
         "AndroidAutoScenarioTests",
